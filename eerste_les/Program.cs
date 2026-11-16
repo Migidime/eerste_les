@@ -4,18 +4,18 @@
     {
         static void Main(string[] args)
         {
-            string name = "migidime";
+            string name = "jan";
             int age = 10;
             int how_old;
 
-            how_old = 6;
-            age = age + 10;
-            age += 20;
+            how_old = 2;
+            age = age + 1;
+            age += 7;
             age += how_old;
 
            
-            Console.WriteLine($"Hello migidime {name}");
-            Console.WriteLine($"je bent {age} jaar oud");
+            Console.WriteLine($"Hello {name}");
+            Console.WriteLine($"je bent {age} jaar oud correct?");
 
 
         }
