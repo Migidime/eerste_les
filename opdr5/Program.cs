@@ -9,18 +9,18 @@
         {
             static void Main(string[] args)
             {
-                int leeftijd;
-                int geboorte;
+                int breedte;
+                int hoogte;
+                int opp;
 
 
-                Console.WriteLine("wanneer ben je geboren?");
-                geboorte = int.Parse(Console.ReadLine());
-                leeftijd = 2026 - geboorte;
-                Console.WriteLine($"je bent  {leeftijd}  oud !");
-                if (leeftijd == 18)
-                {
-                    Console.WriteLine("je bent even oud als mij");
-                }
+                Console.WriteLine("wat is de hoogte?");
+                hoogte = int.Parse(Console.ReadLine());
+                Console.WriteLine("wat is de breedte?");
+                breedte = int.Parse(Console.ReadLine());
+                opp = breedte * hoogte;
+                Console.WriteLine($"de oppervlakte is  {opp}  !");
+               
                 Console.ReadLine();
 
                
