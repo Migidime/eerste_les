@@ -7,4 +7,5 @@
   <Project Path="opdr6/opdr6.csproj" Id="a629cdae-b352-48aa-9c47-bb2e87d069b2" />
   <Project Path="opdr7/opdr7.csproj" Id="7e19d38c-1742-4c78-98b9-b3378e62999d" />
   <Project Path="opdr8/opdr8.csproj" Id="12bb63d3-4c0c-49c6-b5af-90c8b6c35a7b" />
+  <Project Path="opdr9/opdr9.csproj" Id="6e92deb7-c8df-4bc2-ba0a-537e36981a89" />
 </Solution>
