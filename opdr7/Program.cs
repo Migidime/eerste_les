@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int number;
-            int geboorte;
+            
 
 
             Console.WriteLine("wat is mijn lievelings getal?");
