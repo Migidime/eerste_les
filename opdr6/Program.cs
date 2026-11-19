@@ -21,6 +21,11 @@
                 {
                     Console.WriteLine("je bent even oud als mij");
                 }
+            
+                if (leeftijd > 100)
+                {
+                    Console.WriteLine("je liegt");
+                }
                 Console.ReadLine();
 
 
