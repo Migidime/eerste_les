@@ -1,29 +1,40 @@
-﻿namespace opdr7
+﻿using System.ComponentModel.Design;
+
+namespace opdr7
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int number;
-            
-
-
-            Console.WriteLine("wat is mijn lievelings getal?");
-            number = int.Parse(Console.ReadLine());
-            for (int i = 0; i < 3; i++)
+           
+            while (true)
             {
-                if (number == 2)
+               
+                Console.WriteLine("Geef een getal:");
+
+                char invoer = Console.ReadKey().KeyChar;
+                if (Char.IsDigit(invoer))
                 {
-                    Console.WriteLine("das mijn favoriete getal");
-                    break;
-                }
+                    //Console.WriteLine("Is een getal!");
+                    if (invoer == '5')
+                    {
+                        Console.WriteLine("Jeej!");
+                        //Environment.Exit(0); beindigt alles 
+                        break;
+                    } else
+                    {
+                        Console.WriteLine("Jammer joh!");
+                    }
+                } 
                 else
                 {
-                    Console.WriteLine($"ehh nummer {number} fout!");
-                    Console.WriteLine("probeer het nog een keer");
-                    number = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Voer eeen getal in!");
                 }
+
             }
+            Console.WriteLine("THE END!");
+
+
             
         }
     }
