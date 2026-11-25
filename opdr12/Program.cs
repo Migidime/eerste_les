@@ -10,7 +10,7 @@
             name[1] = "Luigi";
             name[2] = "justin";
             name[3] = "jayden";
-            name[4] = "mathew";
+            name[4] = "matthew";
 
             Console.WriteLine($"je naam is {name[3]}");
 

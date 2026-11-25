@@ -16,7 +16,7 @@ namespace opdr7
                 if (Char.IsDigit(invoer))
                 {
                     //Console.WriteLine("Is een getal!");
-                    if (invoer == '5')
+                    if (invoer == '2')
                     {
                         Console.WriteLine("Jeej!");
                         //Environment.Exit(0); beindigt alles 
