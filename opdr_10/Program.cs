@@ -10,7 +10,7 @@
                 {
                     continue;
                 }
-                Console.WriteLine("i is nu " + i);
+                Console.WriteLine("het nieuwe getal is nu " + i);
                
                 
                 
