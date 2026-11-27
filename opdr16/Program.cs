@@ -15,14 +15,33 @@ namespace opdr16
             double antwoord = 0;
             Console.WriteLine("kies een keuze van 1 tot 3.");
             int keuze = int.Parse(Console.ReadLine());
-
+            
 
             switch (keuze)
             {
                 case 1:
-                    Console.WriteLine("je hebt het vermenigvuldigt");
-                    antwoord = getal1 * getal2;
+                    Console.WriteLine("wil je gaan optellen (1) of eraftrekken(2)?");
+                    
+                    
+                   int keuze2 = int.Parse(Console.ReadLine());
+                    switch (keuze2) {
 
+                        case 1:
+                            Console.WriteLine("je hebt optellen gekozen.");
+                        antwoord = getal1 + getal2;
+                            break;
+
+                        case 2:
+                            Console.WriteLine("je hebt eraftrekken gekozen.");
+                            antwoord = getal1 - getal2;
+                            break;
+                        default:
+                            Console.WriteLine("ik zei 1 of 2 kiezen.");
+                            break;
+            
+            }
+                    
+            
                     break;
 
                  case 2:
