@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices.JavaScript;
-
-namespace opdr11
+﻿namespace opdr11
 {
     internal class Program
     {
